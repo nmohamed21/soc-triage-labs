@@ -1,5 +1,3 @@
-# soc-triage-labs
-SOC triage and incident response labs for cybersecurity roles
 # SOC Triage Labs
 
 This repository contains hands-on security operations (SOC) triage labs demonstrating alert analysis, log correlation, and incident response skills.
