@@ -1,0 +1,23 @@
+## Incident Summary
+A failed authentication attempt was detected on a Windows 11 endpoint through SIEM monitoring, indicating potential unauthorized access attempts.
+
+## Data Sources
+- Windows Security Event Logs
+- Wazuh SIEM
+
+## Detection Method
+The SIEM detected failed logon telemetry ingested from the Windows Security Event Channel and correlated authentication metadata including user, process, and failure reason.
+
+## Indicators of Compromise
+- Failed authentication attempts
+- Invalid credentials used
+- Local authentication process (User32)
+
+## Severity Assessment
+Low to Medium  
+(Dependent on frequency and source correlation)
+
+## Recommended Remediation
+- Monitor for repeated failed authentication attempts
+- Enforce strong password and lockout policies
+- Review account activity for anomalous behavior
